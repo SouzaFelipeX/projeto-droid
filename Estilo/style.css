@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype'), /* Para o arquivo OTF */
+         url('idroid.ttf') format('truetype'); /* Para o arquivo TTF */
+}
+
+
+body {
+    font-family: 'idroid', sans-serif; /* Use a fonte no body */
+background-color: #9AEBA3;
+padding-top: 100px; /* Ajuste conforme a altura do cabeçalho */
+
+
+   
+}
+
+
+header {
+    font-family: sans-serif; /* Use a fonte no cabeçalho */
+    background-image: linear-gradient(to top, #37C375,#2DA363, #247F4C); /* Gradiente de fundo */
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 5px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    width: 100%; /* Largura total */
+    top: 0; /* Fixa no topo */
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */}
+
+
+
+.t1 {
+    font-size: 2em; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Margem superior */
+    padding: 30px; /* Espaçamento interno */
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+
+.p1 {
+    font-size: 1.2em; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    height: 30px;
+   text-align: center; /* Centraliza o texto */
+   text-shadow: 0 2px 5px rgba(0,0,0,0.3);   
+}
+
+
+
+/* Cabeçalho */
+.menu {
+    font-size: 15px; /* Tamanho da fonte */
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens em linha */
+    padding: 0px; /* Remove o padding padrão */
+    width: 100%; /* Largura fixa para o menu */
+    margin: 0; /* Remove a margem padrão */
+   
+}
+    
+
+.menu-item {
+    padding: 4px; /* Espaçamento interno dos itens */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: flex; /* Faz cada item ocupar a linha inteira */
+}
+
+.menu-item:hover {
+    background-color: #D3D3D3; /* Cor de fundo ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    color: #000000; /* Cor do texto ao passar o mouse */
+}
+
+
+main {
+    max-width: 800px;
+    min-width: 300px; /* Largura mínima */
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh; /* Certifique-se de que isso seja suficiente */
+    font-family: sans-serif;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 100px; /* Ajuste essa altura para corresponder à altura do cabeçalho */
+}
+
+
+
+main img {
+    width: 100%; /* Largura total da imagem */
+}
+
+main a {
+    color: #109738; /* Cor do link */
+    text-decoration:none ; /* Remove o sublinhado do link */
+}
+
+main a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+    color: #000; /* Cor do link ao passar o mouse */
+    background-color: #D8FFDB;
+}
+
+h2  {
+    font-family: 'idroid', sans-serif; /* Use a fonte no body */
+    font-size: 1.5em; /* Tamanho da fonte */
+    color: #109738; /* Cor do texto */
+    background-image: linear-gradient(to right, #9aeba359, #dafdba1e); /* Gradiente de fundo */
+    
+}
+
+.mascote  {
+    font-family: 'idroid', sans-serif; /* Use a fonte no body */
+    font-size: 2em; /* Tamanho da fonte */
+    color: #109738; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+footer  {
+    font-family: sans-serif; /* Use a fonte no rodapé */
+    background-color: #023535; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 0.5px; /* Espaçamento interno */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Fixa na parte inferior */
+}
+
+
+
+
+img {
+    max-width: 100%; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    display: block; /* Exibe a imagem como bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+    width: 100% auto; /* Largura total */
+    height: auto; /* Altura automática para manter a proporção */
+
+}
+
+.vi {
+    max-width: 850px; /* Largura máxima do contêiner */
+    height: auto; /* Altura automática */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #333; /* Cor de fundo do contêiner */
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centralizando horizontalmente */
+    margin-bottom: 30px; /* Remove a margem externa */
+}
+
+.tabela {
+    width: 100%; /* Largura total da tabela */
+    border-collapse: collapse; /* Remove o espaçamento entre as células */
+    margin: 20px auto; /* Centraliza a tabela */
+    font-family: sans-serif; /* Fonte da tabela */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: green; /* Cor de fundo da tabela */
+    color: white;
+    padding :20px auto /* Espaçamento interno */	
+}
+
+.tabelab
+ {
+    background-color: #8FC1B5; /* Cor de fundo do corpo da tabela */
+    padding: 30px; /* Espaçamento interno */
+    line-height: 0px; /* Altura da linha */
+    margin: 0; /* Remove a margem externa */
+}
+
+
+
+aside  {
+background-color: #2DA363;
+border-radius: 10px; /* Bordas arredondadas */
+padding: 10px
+}
+
+aside > ul {
+    list-style-type: '\1F5F8\00a0\00a0'; /* Ícone de marcador */ /*00a0 emoji de espaço */
+    list-style-position: inside; /* Posição dos marcadores */
+    columns: 2; /* Número de colunas */
+
+}
+
+aside h3  {
+    background-color: #023535;  
+    color: white; /* Cor do texto */
+    margin: -10px -10px 0 -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px; /* Bordas arredondadas */
+    box-shadow:  0 0 5px rgba(0, 0, 0, 0.5); /* Sombra interna */
+}
